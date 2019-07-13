@@ -1,0 +1,12 @@
+﻿AdjFactor:复权因子
+AdjClose:复权收盘价
+Amount:成交额
+Change:涨跌幅
+IndGICS:GICS行业
+ListedDays:上市日期
+Shares:总股本
+TotalMarketValue:总市值（万元）
+trade_stocks:股票交易信息，1表示正常交易
+TurnoverRate:换手率 %
+Volume:成交量
+Shibor3M:无风险利率
