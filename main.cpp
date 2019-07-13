@@ -41,21 +41,6 @@ int main(int argc, char* argv[])
 	SF->compute_returns();
 	SF->rt_to_csv();
 	
-	/*
-	vector<vector<double>> tmp_rt;
-	tmp_rt.clear();
-	vector<int> tmp_d;
-	tmp_d.clear();
-	for (int i = 0; i != 4; ++i)
-	{	
-		tmp_d.push_back(i);
-		vector<double> vec;
-		vec.clear();
-		for (int j = 0; j != 4; ++j)
-			vec.push_back(j);
-		tmp_rt.push_back(vec);
-	}
-	*/
 	// factor covariance matrix
 	Covariance* COV = new Covariance(SF->factor_rt, SF->dates);
 	//Covariance* COV = new Covariance(tmp_rt, tmp_d);
